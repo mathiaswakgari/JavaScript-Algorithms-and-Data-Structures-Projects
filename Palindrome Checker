@@ -1,0 +1,13 @@
+function palindrome(str) {
+  const regex = /[A-Za-z0-9]/gi
+  const formattedStr = str.toLowerCase().match(regex).join("")
+  
+  let reverseStr=[]
+
+  for(let i = formattedStr.length; i >= 0; i--)
+    reverseStr.push(formattedStr[i])
+    
+  reverseStr = reverseStr.join("")
+  return reverseStr == formattedStr
+  
+}
