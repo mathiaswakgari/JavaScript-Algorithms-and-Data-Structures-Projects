@@ -11,3 +11,9 @@ function palindrome(str) {
   return reverseStr == formattedStr
   
 }
+
+palindrome("1 eye for of 1 eye.") 
+palindrome("0_0 (: /-\ :) 0-0") 
+palindrome("five|\_/|four") 
+palindrome("eye")
+palindrome("_eye")
